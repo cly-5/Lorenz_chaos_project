@@ -2,6 +2,7 @@ import numpy as np
 from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
 
+# This code is to compare the RK4 and RK45 further
 
 # Define lorenz equations
 def lorenz(t, state, sigma, rho, beta):
