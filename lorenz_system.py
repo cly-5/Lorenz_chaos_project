@@ -2,6 +2,7 @@ import numpy as np
 from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
 
+# Simulate and plot the Lorenz system using the methods
 
 # Define lorenz equations
 def lorenz(t, state, sigma, rho, beta):
